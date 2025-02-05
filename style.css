@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* sementara */
+body {
+    /* margin-bottom: 500px; */
+}
+
+* {
+    font-family: dm sans;
+}
+
+/* navbar */
+.navbar .navbar-brand img {
+    width: 120px;
+}
+
+.navbar .navbar-nav {
+    margin-left: auto;
+}
+
+.navbar .navbar-nav .nav-link {
+    margin-right: 20px;
+}
+
+.navbar .navbar-nav .btn {
+    width: 120px;
+}
+/* navbar */
+
+/* hero */
+#hero {
+    background-image: url(./Assets/banner.jpg);
+    background-size: cover;
+    height: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#hero .konten-hero h1 {
+    font-size: 60px;
+}
+/* hero */
+
+/* produk */
+#produk {
+    margin-top: 100px;
+}
+
+#produk .more {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+#produk .card-produk {
+    text-decoration: none;
+    border: none;
+}
+
+#produk .card-produk .foto-produk {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/* cta */
+#cta {
+    margin-top: 100px;
+    color: white;      
+}
+
+#cta .bg-cta {
+    background-image: url(./Assets/Gambar1.jpg);
+    background-size: cover;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cta h1 {
+    font-size: 50px;
+}
+/* cta */
+
+/* Login */
+#login .bg-login{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(./Assets/Login.jpg);
+    background-size: cover;
+}
+/* Login */
+
+/* footer */
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
+/* footer */
