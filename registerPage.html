@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Register</title>
+
+    <!-- ini favicon -->
+    <link rel="shortcut icon" href="./Assets/faficon.png" type="image/x-icon">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <section id="register">
+        <div class="container ">
+            <div class="bg-register">
+                <div class="row">
+                    <div class="col">
+                        <img src="./Assets/Logo.png" alt="logo">
+                        <h1>Daftar Akun</h1>
+                        <p>Daftar Akun untuk berbelanja.</p>
+
+                        <!-- form -->
+                        <form action="./loginPage.html">
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label for="nama-lengkap" class="form-label">Nama Lengkap</label>
+                                    <input type="text" class="form-control" placeholder="cth. Ahmad Fulan">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="telepon" class="form-label">Nomor Telepon</label>
+                                    <input type="text" class="form-control" placeholder="cth. 628xxxxxxxx">
+                                </div>
+                            </div>
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="cth. example@gmail.com">
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label for="password" class="form-label">Buat Password</label>
+                                    <input type="password" class="form-control" placeholder="Masukkan password">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="Konfirmasi-password" class="form-label">Konfirmasi Password</label>
+                                    <input type="password" class="form-control" placeholder="Konfirmasi password">
+                                </div>
+                            </div>
+
+
+
+
+                            <input type="submit" class="btn btn-success w-100 mt-5" value="Buat Akun">
+
+                            <p class="mt-5">Sudah punya akun? <a href="./loginPage.html" class="text-success">Login Akun</a></p>
+
+                        </form>
+
+                        <!-- form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

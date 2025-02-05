@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Detail Produk</title>
+
+    <!-- ini favicon -->
+    <link rel="shortcut icon" href="./Assets/faficon.png" type="image/x-icon">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./Assets/Logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="./home.html">Beranda</a>
+                    <a class="nav-link" href="./produkPage.html">Produk</a>
+                    <a class="nav-link" href="./keranjangPage.html"><i
+                            class="fa-solid fa-cart-shopping text-success"></i></a>
+                    <div class="vr"></div>
+                    <li class="nav-item dropdown ps-3">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Ahmad Fulan
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./index.html">Keluar Akun</a></li>
+                        </ul>
+                    </li>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--navbar -->
+
+    <!-- detail produk -->
+    <section id="detail">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Detail Produk</h3>
+                </div>
+            </div>
+
+            <div class="row mt-3 d-flex align-items-center">
+                <div class="col-lg-4">
+                    <div class="foto-produk border">
+                        <img src="./Assets/Produk1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Pisang Cavendish</h4>
+                    <h6>Harga</h6>
+                    <h5>Rp. 35.000/kg</h5>
+                    <h6>Deskripsi</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur. Mattis laoreet in ornare donec cum nisi quam augue. Sed
+                        in ipsum proin eget facilisis. </p>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Pilih Jumlah:</h5>
+                            <p class="text-secondary">*maks 5 kg</p>
+
+                            <!-- pilih jumlah -->
+                            <form action="./keranjangPage.html" class="d-flex">
+                                <input type="number" class="form-control" value="1" min="1" max="5">
+                                <h6 class="ps-2">kg</h6>
+                                <div class="vr ms-3 me-3"></div>
+                                <input type="submit" class="btn btn-success w-100" value="+keranjang">
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- detail produk -->
+
+    <!-- Produk lainnya -->
+    <section id="produk">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5>Produk Lainnya</h5>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-3">
+                    <a class="card card-produk" href="./detail.html">
+                        <div class="foto-produk border p-5">
+                            <img src="./Assets/Produk5.png" class="card-img-top" alt="produk">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-tittle">Tomat Merah</h5>
+                            <p class="card-text">Rp. 15.000/kg</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3">
+                    <a class="card card-produk" href="./detail.html">
+                        <div class="foto-produk border p-5">
+                            <img src="./Assets/Produk6.png" class="card-img-top" alt="produk">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-tittle">Jeruk Sunkist</h5>
+                            <p class="card-text">Rp. 28.000/kg</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3">
+                    <a class="card card-produk" href="./detail.html">
+                        <div class="foto-produk border p-5">
+                            <img src="./Assets/Produk7.png" class="card-img-top" alt="produk">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-tittle">Brokoli</h5>
+                            <p class="card-text">Rp. 35.000/kg</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3">
+                    <a class="card card-produk" href="./detail.html">
+                        <div class="foto-produk border p-5">
+                            <img src="./Assets/Produk8.png" class="card-img-top" alt="produk">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-tittle">Semangka</h5>
+                            <p class="card-text">Rp. 12.000/kg</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Produk lainnya -->
+
+    <!-- footer -->
+    <footer>
+        <hr>
+        <p>Copyright &copy; 2025 Syn-Health All Right Reserved</p>
+    </footer>
+    <!-- footer -->
+
+</body>
+
+</html>
