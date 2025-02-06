@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Pembayaran</title>
+
+    <!-- ini favicon -->
+    <link rel="shortcut icon" href="./Assets/faficon.png" type="image/x-icon">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./Assets/Logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="./home.html">Beranda</a>
+                    <a class="nav-link" href="./produkPage.html">Produk</a>
+                    <a class="nav-link" href="./keranjangPage.html"><i
+                            class="fa-solid fa-cart-shopping text-success"></i></a>
+                    <div class="vr"></div>
+                    <li class="nav-item dropdown ps-3">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Ahmad Fulan
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./index.html">Keluar Akun</a></li>
+                        </ul>
+                    </li>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--navbar -->
+
+    <!-- payment -->
+     <section id="payment">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4>Pembayaran</h4>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-7">
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <img src="./Assets/ic-bca.png" alt="logo" class="mb-3">
+                        <p>Nomor Rekening : <b>123456789</b></p>
+                        <form action="successPage.html">
+                            <label for="bukti-bayar" class="form-label">Upload Bukti Bayar</label>
+                            <input type="file" name="bukti" id="bukti-bayar" class="form-control">
+
+                            <input type="submit" class="btn btn-success w-100 mt-3" value="Konfirmasi">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- payment -->
+
+    <!-- footer -->
+    <footer>
+        <hr>
+        <p>Copyright &copy; 2025 Syn-Health All Right Reserved</p>
+    </footer>
+    <!-- footer -->
+</body>
+
+</html>

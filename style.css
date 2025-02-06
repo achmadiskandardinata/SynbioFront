@@ -25,6 +25,7 @@ body {
 .navbar .navbar-nav .btn {
     width: 120px;
 }
+
 /* navbar */
 
 /* hero */
@@ -40,6 +41,7 @@ body {
 #hero .konten-hero h1 {
     font-size: 60px;
 }
+
 /* hero */
 
 /* produk */
@@ -67,12 +69,13 @@ body {
     align-items: center;
     border-radius: 10px;
 }
+
 /* produk */
 
 /* cta */
 #cta {
     margin-top: 100px;
-    color: white;      
+    color: white;
 }
 
 #cta .bg-cta {
@@ -88,10 +91,11 @@ body {
 #cta h1 {
     font-size: 50px;
 }
+
 /* cta */
 
 /* Login */
-#login .bg-login{
+#login .bg-login {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -105,7 +109,7 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 204);
 }
 
-#login .custom-width{
+#login .custom-width {
     width: 400px;
 }
 
@@ -113,10 +117,11 @@ body {
     padding-top: 10px;
 }
 
-#login img{
+#login img {
     width: 120px;
     margin-bottom: 20px;
 }
+
 /* Login */
 
 /* register */
@@ -158,9 +163,59 @@ body {
     justify-content: center;
 }
 
+/* keranjang */
+#keranjang {
+    margin-top: 100px;
+}
+
+#keranjang .foto-produk {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* keranjang */
+
+/* order */
+#order{
+    margin-top: 100px;
+}
+
+#order .foto-produk {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+/* order */
+
+/* payment */
+#payment{
+    margin-top: 100px;
+}
+
+#payment img {
+    width: 30%;
+}
+/* payment */
+
+/* success */
+#success {
+    margin-top: 100px;
+}
+
+#success img {
+    width: 50%;
+}
+/* success */
+
 /* footer */
 footer {
     margin-top: 100px;
     text-align: center;
 }
+
 /* footer */
