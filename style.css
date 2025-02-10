@@ -57,7 +57,6 @@ body {
     align-items: center;
 }
 
-
 #produk .card-produk {
     text-decoration: none;
     border: none;
@@ -163,6 +162,8 @@ body {
     justify-content: center;
 }
 
+/* detail produk */
+
 /* keranjang */
 #keranjang {
     margin-top: 100px;
@@ -179,7 +180,7 @@ body {
 /* keranjang */
 
 /* order */
-#order{
+#order {
     margin-top: 100px;
 }
 
@@ -190,16 +191,18 @@ body {
     justify-content: center;
     padding: 20px;
 }
+
 /* order */
 
 /* payment */
-#payment{
+#payment {
     margin-top: 100px;
 }
 
 #payment img {
     width: 30%;
 }
+
 /* payment */
 
 /* success */
@@ -210,6 +213,7 @@ body {
 #success img {
     width: 50%;
 }
+
 /* success */
 
 /* footer */
@@ -219,3 +223,47 @@ footer {
 }
 
 /* footer */
+
+/* mobile style */
+@media (max-width: 768px) {
+
+    /* navbar */
+    .navbar .navbar-nav {
+        text-align: center;
+    }
+
+
+    .navbar .navbar-nav .btn {
+        width: 120px;
+        margin: auto;
+    }
+
+    .navbar .navbar-nav .dropdown {
+        margin-left: 0;
+    }
+
+    .navbar .navbar-nav .vr {
+        display: none;
+    }
+
+    /* navbar */
+
+    /* Login */
+    #login .bg-login {
+        width: 100%;
+    }
+
+    #login .custom-width {
+        width: 100%;
+    }
+
+    /* Login */
+
+    /* register */
+    #register .bg-register {
+        width: 100%;
+    }
+
+    /* register */
+
+    /* mobile style */
